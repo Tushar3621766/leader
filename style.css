@@ -1,0 +1,124 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* -------------------------------- */
+*{
+    margin:0;
+    padding: 0;
+}
+.full_wrapper{
+    width: 100%;
+    background-color: #E5E5E5;
+    padding: 36px 0;
+}
+.container{
+    width: 723px;
+   margin: 0 auto;
+   background-color: #ffffff;
+}
+.con_fig{
+    padding: 33px 0 40px 33px;
+}
+.player_title{  
+    height: 36px;    
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+}
+.player_title h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #562EFF;
+}
+
+.top_players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player_name{
+    margin-left: 16px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+/* blog prt start */
+
+.blog_titles h3{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #562EFF;
+    margin: 30px 0;
+}
+.blog_item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 26px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+}
+.thumbnail{
+    margin-right: 16px;
+}
+.thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog_title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+}
+.blog_author{
+    color: #9F9F9F;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.blog_author a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* latest course part start */
+
+.cont_fig{
+    padding: 33px 0 40px 33px;
+    margin-top: 30px;
+}
+.course_all{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.course_img img{
+    width: 224px;
+    height: 104px;
+}
+.course_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star.fild{
+    color: #FFC014;
+}
+
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.emty{
+    color: #AEAEAE;
+}
